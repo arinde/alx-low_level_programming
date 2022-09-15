@@ -9,5 +9,9 @@
  */
 int _putchar(char c)
 {
-		return (write(1, &c, 1));
+	if (c >= 65 && c <= 91)
+		return (1);
+
+	else
+		return (0);
 }
