@@ -9,19 +9,17 @@
 
 int main(void)
 {
-	int num;
-	int sum = 0;
+	int i = 1;
+	int total = 0;
 
-	for (num = 0; num < 1024; num++)
+	while (i < 1024)
 	{
-		if (num % 3 == 0 || num % 5 == 0)
-		{
-			sum = +sum;
-		}
+		if (i % 3 == 0)
+			total += i;
+		else if (i % 5 == 0)
+			total += i;
+		i++;
 	}
-
-	printf("%d\n", sum);
-
+	printf("%d\n", total);
 	return (0);
-
 }
