@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - write a program that finds and prints he sum of the even-valued terms, followed by a new line
+ * main - print the first 98 fibonacci numbers.
  *
  * Return: 0
  */
