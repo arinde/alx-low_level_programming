@@ -10,7 +10,7 @@
 
 void rev_string(char *s)
 {
-	int 1, i;
+	int l, i; 
 	char ch;
 
 	/*find string length without null char*/
