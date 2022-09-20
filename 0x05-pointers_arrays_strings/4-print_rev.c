@@ -1,16 +1,15 @@
 #include "main.h"
-
 /**
  * rev_string - reverses a string
  *
  * @s: string parameter input
  *
- * Return: nothing
+ * Return: Nothing
  */
 
 void rev_string(char *s)
 {
-	int l, i; 
+	int l, i;
 	char ch;
 
 	/*find string length without null char*/
